@@ -357,6 +357,6 @@ address{
     transform: translatey(100%);
     transition: transform 250ms ease-in-out;
 }
-.text-payment:hover{
+.payment:hover .text-payment{
     transform: translatey(0);
 }
