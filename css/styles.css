@@ -238,6 +238,7 @@ address{
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.14);
 }
 .ul-good-section-four{
     list-style-type: none;
@@ -245,6 +246,9 @@ address{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+.li-portfolio:hover{
+    box-shadow: 3px 1px 2px 3px rgba(0, 0, 0, 0.14);
 }
 .text{
     font-size: 16px;
@@ -364,4 +368,25 @@ address{
 }
 .payment:hover .text-payment{
     transform: translatey(0);
+}
+.footer-all{
+    display: flex;
+    gap: 120px;
+    list-style-type: none;
+}
+.social-media{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 0;
+}
+.text-social{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding-bottom: 16px;
+    margin: 0;
 }
