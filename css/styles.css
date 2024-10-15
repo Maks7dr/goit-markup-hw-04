@@ -164,16 +164,18 @@ color: #2e2f42;
     color: #F4F4FD;
 }
 .navig{
+    
     font-size: 16px;
     text-decoration: none;
     list-style-type: none;
     color: #2e2f42;
-    padding: 24px 0;
-    
+    padding: 24px 0; 
 }
+
 .navig:hover, .navig:focus{
     color: #404bbf;
 }
+
 .contact{
     text-decoration: none;
     font-size: 16px;
@@ -325,4 +327,36 @@ address{
     border-radius: 50%;
     background-color: #4D5AE5;
     padding: 12px
+}
+
+.navig-links:hover{
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+}
+.payment {
+    position: relative;
+    overflow: hidden;
+}
+.text-payment{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    padding: 40px 32px;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+.text-payment:hover{
+    transform: translatey(0);
 }
