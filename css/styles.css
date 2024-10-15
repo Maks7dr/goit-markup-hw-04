@@ -318,14 +318,11 @@ address{
     gap: 24px;
     margin-top: 8px;
     background-color: #FFFFFF;
-    
 }
-.social-link{
+
+.social-links{
     display: block;
+    border-radius: 50%;
     background-color: #4D5AE5;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    padding: 12px;
-    
+    padding: 12px
 }
