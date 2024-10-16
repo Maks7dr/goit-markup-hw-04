@@ -311,6 +311,8 @@ address{
 }
 .team-name{
     padding: 32px 0;
+    justify-content: center;
+    align-items: center;
 }
 .team-portfolio{
     padding: 32px 16px;
@@ -333,18 +335,21 @@ address{
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 8px;
-    background-color: #FFFFFF;
+    list-style-type: none;
+    padding: 0;
 }
 
 .social-links{
-    display: block;
+    display: flex;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    padding: 12px
+    padding: 12px;
 }
-
-
+.social-team-link{
+    padding: 32px 0;
+}
 .payment {
     position: relative;
     overflow: hidden;
@@ -380,6 +385,7 @@ address{
     justify-content: flex-start;
     gap: 16px;
     margin-top: 0;
+    padding: 0;
 }
 .text-social{
     font-weight: 500;
