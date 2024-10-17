@@ -289,10 +289,11 @@ address{
 }
 .text-footer{
     font-size: 16px;
-        letter-spacing: 0.02em;
-        line-height: 1.5;
-        color:#F4F4FD;
-        width: 264px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color:#F4F4FD;
+    width: 264px;
+    margin-bottom: 16px;
 }
 .container-header{
    display: flex;
